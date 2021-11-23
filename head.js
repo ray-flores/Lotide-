@@ -6,6 +6,13 @@ const assertEqual = function(actual, expected) {
   }
 };
 
+const head = function(array) {
+  return array[0];
+};
 
-assertEqual("Lighthouse Labs", "Bootcamp");
-assertEqual(7, 3);
+assertEqual(head([7]), 7);
+
+assertEqual(head([]), undefined);
+
+
+
