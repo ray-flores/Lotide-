@@ -1,4 +1,4 @@
-const assertArrayEqual = function(arr1, arr2) {
+const assertArraysEqual = function(arr1, arr2) {
   if (arr1.length !== arr2.length) {
     console.log(`🛑 Length Assertion Failed: ${arr1} !== ${arr2}`);
     return false;
@@ -13,7 +13,7 @@ const assertArrayEqual = function(arr1, arr2) {
   return `true`;
 };
 
-assertArrayEqual([1, 2, 3], [1, 2, 3]);
+assertArraysEqual([1, 2, 3], [1, 2, 3]);
 /*
 
 const assertEqual = function(actual, expected) {
