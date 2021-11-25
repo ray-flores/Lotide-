@@ -12,17 +12,15 @@ const countLetters = function(sentence) {
   const results = {};
   sentence = sentence.replace(/\s/g, '');
   for (const letter of sentence) {
-    //if (sentence[letter] != " ") {
+    //if (sentence[letter] != " ") { not working...
       if (results[letter]) {
         results[letter] += 1;
       } else {
         results[letter] = 1;
       }
-    //}
   } 
-  console.log(results);
   return results;  
-}
+};
 
 
 const results1 = countLetters(sentence);
