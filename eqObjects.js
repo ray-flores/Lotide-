@@ -52,7 +52,7 @@ eqObjects(ab, ba); // => true
 const abc = { a: "1", b: "2", c: "3" };
 eqObjects(ab, abc); // => false
 
-/*
+
 const obj7 = { 
   sci_fi: "The Expanse",
   comedy: "Brooklyn Nine-Nine",
@@ -70,10 +70,9 @@ const obj9 = {
   island: "Amanpulo",
   mountain: "El Capitan"
 }
-*/
 
-//assertEqual(eqObjects(obj7, obj8), true);
-//assertEqual(eqObjects(obj7, obj9), false);
+assertEqual(eqObjects(obj7, obj8), true);
+assertEqual(eqObjects(obj7, obj9), false);
 assertEqual(eqObjects(ab, ba), true);
 assertEqual(eqObjects(ab, abc), false);
 assertEqual(eqObjects(cd, dc), true);
