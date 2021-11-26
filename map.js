@@ -35,6 +35,7 @@ console.log(results1);
 
 assertArraysEqual(map(words, word => word[0]), ['g', 'c', 't', 'm', 't']);
 assertArraysEqual(map(words, word => word[0]), ['c', 't', 'm', 't']);
+assertArraysEqual(map(words, word => word[0]), ['t', 'm', 't', 'c', 'g']);
 assertArraysEqual(map(words, word => word[0]), ['r', 'o', 'o', 'a', 'o']);
 assertArraysEqual(map(words, word => word[0]), []);
 assertArraysEqual(map(words, word => word[0]), [0, 1, , 2, 3]);
