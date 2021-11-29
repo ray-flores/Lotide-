@@ -15,15 +15,6 @@ const findKey = function(object, callback) {
   return undefined;
 } 
 
-// const callback = function(key) {
-//   console.log(key);
-//   if (key.stars === 2) {  
-//     console.log("hi");  
-//     return true;
-//   }
-//   return false;
-// };
-
 console.log(findKey({
   "Blue Hill": { stars: 1 },
   "Akaleri":   { stars: 3 },
@@ -49,3 +40,12 @@ assertEqual(findKey({
   "Ora":       { stars: 2 },
   "Akelarre":  { stars: 3 }
 }, x => x.stars === 4), undefined);
+
+// const callback = function(key) {
+//   console.log(key);
+//   if (key.stars === 2) {  
+//     console.log("hi");  
+//     return true;
+//   }
+//   return false;
+// };
