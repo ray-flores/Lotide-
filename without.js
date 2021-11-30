@@ -32,6 +32,8 @@ const without = function(arr, rmarr) {
   }
 };
 
+module.exports = without;
+
 let arr = [1, 2, 3];
 let rmarr = [3];
 

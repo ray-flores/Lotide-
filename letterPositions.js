@@ -36,6 +36,8 @@ const letterPositions = function(sentence) {
   return results;
 };
 
+module.exports = letterPositions;
+
 const results1 = letterPositions(sentence);
 
 

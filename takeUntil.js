@@ -34,6 +34,7 @@ const takeUntil = function(array, callback) {
   }
   return results;
 }
+
 const callback = num => { 
   if (num < 0) {
     return true;
@@ -41,6 +42,8 @@ const callback = num => {
     return false;
   }
 };
+
+module.exports = takeUntil;
 
 const callback2 = num => {
   if (num === ",") {

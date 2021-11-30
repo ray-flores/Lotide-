@@ -28,6 +28,8 @@ const map = function(arr, callbk) {
   return results;
 }
 
+module.exports = map;
+
 const results1 = map(words, word => word[0]);
 console.log(results1);
 
